@@ -570,7 +570,7 @@ html:not(.app-focused) .typeWindows_a934d8 .winButton_a934d8.winButtonMinMax_a93
 }
 
 .mentionsBar_eba0ba {
-  background-color: hsl(var(--alert-hsl));
+  background-color: hsl(100,100%,50);
 }
 .mentionsBar_eba0ba .barText_eba0ba {
   color: var(--alert-text-color) !important;
