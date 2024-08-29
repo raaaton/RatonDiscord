@@ -57,7 +57,7 @@
   --avatar-radius: 24px;
   --channel-radius: 21px;
   --spotify-color: hsl(141,73%,42%);
-  --stream-color: hsl(262,47%,40%);
+  --stream-color: hsl(262,47%,100%);
   --xbox-color: hsl(120,77%,27%);
   --tooltip-color: hsl(0,0%,38%,0.9);
   --tooltip-border-color: hsl(0,0%,51%);
