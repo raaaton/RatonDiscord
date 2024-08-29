@@ -7338,10 +7338,24 @@ div[role=radiogroup].group_d25d19 {
 .mentioned_d5deea .contents_f9f2ca .messageContent_f9f2ca {
   margin: 0 -4px;
   padding: 0 4px;
+  background-color: hsl(var(--accent-hsl), 0.3);
+  border-radius: calc(var(--message-radius) / 1.4);
+  transition: var(--default-time) var(--default-animation) background-color;
+}
+.mentioned_d5deea .contents_f9f2ca .messageContent_f9f2ca:hover {
+  background-color: hsl(var(--accent-hsl), 0.375);
 }
 .mentioned_d5deea .repliedMessage_f9f2ca .messageContent_f9f2ca {
   padding: 0 1px 0 4px;
+  background-color: hsl(var(--accent-hsl), 0.3);
+  border-radius: calc(var(--message-radius) / 1.4);
+  transition: var(--default-time) var(--default-animation) background-color;
 }
+.mentioned_d5deea .repliedMessage_f9f2ca .messageContent_f9f2ca:hover {
+  background-color: hsl(var(--accent-hsl), 0.375);
+}
+
+/* .message_d5deea cozyMessage_d5deea groupStart_d5deea replying_d5deea wrapper_f9f2ca cozy_f9f2ca zalgo_f9f2ca */
 
 .avatarDecoration_f9f2ca {
   top: 0;
