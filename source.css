@@ -7342,6 +7342,12 @@ div[role=radiogroup].group_d25d19 {
 .mentioned_d5deea .repliedMessage_f9f2ca .messageContent_f9f2ca {
   padding: 0 1px 0 4px;
 }
+.wrapper_f46140 .mentioned_f9a2ca {
+    background-color: hsl(var(--accent-hsl), 0.3) !important;
+}
+.wrapper_f46140 .mentioned_f9a2ca:hover {
+    background-color: hsl(var(--accent-hsl), 0.4) !important;
+}
 
 .avatarDecoration_f9f2ca {
   top: 0;
