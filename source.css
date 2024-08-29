@@ -14,7 +14,7 @@
   --accent-lightness: 61%;
   --accent-hsl: var(--accent-hue),calc(var(--accent-saturation) * var(--saturation-factor)),var(--accent-lightness);
   --accent-text-color: hsl(0,0%,100%);
-  --alert-hue: 50;
+  --alert-hue: 0;
   --alert-saturation: 85%;
   --alert-lightness: 61%;
   --alert-hsl: var(--alert-hue), calc(var(--alert-saturation) * var(--saturation-factor)), var(--alert-lightness);
@@ -570,7 +570,7 @@ html:not(.app-focused) .typeWindows_a934d8 .winButton_a934d8.winButtonMinMax_a93
 }
 
 .mentionsBar_eba0ba {
-  background-color: hsl(100,100%,50);
+  background-color: hsl(var(--alert-hsl));
 }
 .mentionsBar_eba0ba .barText_eba0ba {
   color: var(--alert-text-color) !important;
@@ -7319,7 +7319,7 @@ div[role=radiogroup].group_d25d19 {
 
 .mentioned_d5deea .messageContent_f9f2ca {
   position: relative;
-  background-color: hsl(100,52%,50%);
+  background-color: hsl(var(--accent-hsl), 0.3);
   border-radius: calc(var(--message-radius) / 1.4);
   transition: var(--default-time) var(--default-animation) background-color;
 }
@@ -7341,12 +7341,6 @@ div[role=radiogroup].group_d25d19 {
 }
 .mentioned_d5deea .repliedMessage_f9f2ca .messageContent_f9f2ca {
   padding: 0 1px 0 4px;
-}
-.wrapper_f46140 .mentioned_f9a2ca {
-    background-color: hsl(var(--accent-hsl), 0.3) !important;
-}
-.wrapper_f46140 .mentioned_f9a2ca:hover {
-    background-color: hsl(var(--accent-hsl), 0.4) !important;
 }
 
 .avatarDecoration_f9f2ca {
