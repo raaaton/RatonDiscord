@@ -1,6 +1,6 @@
 .theme-dark {
     --saturation-modifier: 0.50;
-    --lightness-modifier: 0.225;
+    --lightness-modifier: 0.925;
     --text-lightness-modifier: 1.0;
     --main-color: hsl(
             var(--accent-hue),
