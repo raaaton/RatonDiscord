@@ -3,7 +3,7 @@
 :root {
   --app-font: "Google Sans";
   --app-bg: var(--main-alt);
-  --app-watermark-one: "Material";
+  --app-watermark-one: "Raton";
   --app-watermark-two: "Discord";
   --app-title-bar-height: 22px;
   --app-button-min: hsl(39,100%,63%);
