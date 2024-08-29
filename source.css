@@ -7319,7 +7319,7 @@ div[role=radiogroup].group_d25d19 {
 
 .mentioned_d5deea .messageContent_f9f2ca {
   position: relative;
-  background-color: hsl(var(--accent-hsl), 0.3);
+  background-color: hsl(100,100%,50), 0.3);
   border-radius: calc(var(--message-radius) / 1.4);
   transition: var(--default-time) var(--default-animation) background-color;
 }
